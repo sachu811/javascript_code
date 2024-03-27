@@ -1,9 +1,8 @@
-def factorial(num):
-  cal=1
-  while num>1:
-    cal=cal*num
-    num-=1
-  return cal
+def factorial(val):
+  fact=1
+  while val !=1:
+    fact*=val
+    val-=1
+  return fact
 
-print(factorial(5))
-
+print(factorial(4))
